@@ -23,8 +23,8 @@ const Home = () => {
     { value: 'react-js', label: 'React JS' },
     { value: 'react-tailwind', label: 'React + Tailwind CSS' },
     { value: 'react-bootstrap', label: 'React + Bootstrap' },
-    // { value: 'next-js', label: 'Next JS' },
-    // { value: 'angular', label: 'Angular JS' },
+    { value: 'next-js', label: 'Next JS' },
+    { value: 'angular', label: 'Angular JS' },
   ];
 
   const [outputScreen, setOutputScreen] = useState(false);
